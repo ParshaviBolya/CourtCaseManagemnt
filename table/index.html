@@ -20,6 +20,22 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+<style>
+#myInput {
+	background-image: url('/css/searchicon.png');
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	width: 30%;
+	align-items: left;
+	font-size: 16px;
+	padding: 18px 20px 12px 110px;
+	border: 1px solid rgb(148, 69, 185);
+	margin-left: 817px;
+	margin-top: -320px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+  }
+</style>
 </head>
 <body>
 	
@@ -27,6 +43,7 @@
 		<div class="container-table100">
 			<div class="wrap-table100">
 				<div class="table100">
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for cities.." title="Type the city">
 					<table>
 						<thead>
 							<tr class="table100-head">
@@ -36,6 +53,7 @@
 								<th class="column4"  style="text-align: center;">Price*</th>
 								<th class="column5"  style="text-align: center;">Notary</th>
 								<th class="column6"  style="text-align: center;">Per Hearing</th>
+								<th class="column7"  style="text-align: center;">Contact</th>
 							</tr>
 						</thead>
 						

@@ -172,6 +172,7 @@ table td.r, table th.r {
   color: #fff;
   line-height: 1.2;
   font-weight: unset;
+  padding-right: 35px;
 }
 
 tbody tr:nth-child(even) {
