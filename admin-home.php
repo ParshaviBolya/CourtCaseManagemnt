@@ -53,22 +53,22 @@ session_start();
 				
 				<ul class="list-unstyled menu-elements" style="padding:20%;">
 					<li class="active">
-						<a class="scroll-link" href="admin-home.php"><i class="fas fa-home"></i>Add Cases</a>
+						<a href="admin-home.php"><i class="fas fa-home"></i>Add Cases</a>
 					</li>
 					<li>
-						<a class="scroll-link" href="add-client.php"><i class="fas fa-cog"></i>Add Clients</a>
+						<a href="add-client.php"><i class="fas fa-cog"></i>Add Clients</a>
 					</li>
 					<li>
-						<a class="scroll-link" href="add-lawyer.php"><i class="fas fa-user"></i>Add Lawyers</a>
+						<a href="add-lawyer.php"><i class="fas fa-user"></i>Add Lawyers</a>
 					</li>
 					<li>
-						<a class="scroll-link" href="view-cases.php"><i class="fas fa-cog"></i>View Cases</a>
+						<a href="view-cases.php"><i class="fas fa-cog"></i>View Cases</a>
 					</li>
 					<li>
-						<a class="scroll-link" href="view-clients.php"><i class="fas fa-user"></i>View Clients</a>
+						<a href="view-clients.php"><i class="fas fa-user"></i>View Clients</a>
 					</li>
 					<li>
-						<a class="scroll-link" href="view-lawyers.php"><i class="fas fa-user"></i>View Lawyers</a>
+						<a href="view-lawyers.php"><i class="fas fa-user"></i>View Lawyers</a>
 					</li>
 				</ul>
 				
