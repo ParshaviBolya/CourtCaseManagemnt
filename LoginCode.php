@@ -32,7 +32,7 @@
 							break;
 					}
 				}else {
-					header("location: index.html");
+					header("location: login.php");
 				}
 			}
 		?>
