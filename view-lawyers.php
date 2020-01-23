@@ -1,3 +1,11 @@
+<?php
+session_start();
+	if($_SESSION['login_role']!=1)
+	{
+		header('Location: login.php');
+	}
+?>
+
 <!doctype html>
 <html lang="en">
 
