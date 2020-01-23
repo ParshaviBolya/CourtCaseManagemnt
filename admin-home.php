@@ -1,3 +1,10 @@
+<?php
+session_start();
+	if($_SESSION['login_role']!=1)
+	{
+		header('Location: login.php');
+	}
+?>
 <!doctype html>
 <html lang="en">
 
@@ -93,7 +100,9 @@
 			                	<h1 class="wow fadeIn">Admin Panel</h1>
 								</div>
 			                </div>
+							
 			            </div>
+						<a href="logout.php">Logout</a>
 			        </div>
 		        </div>
 				
